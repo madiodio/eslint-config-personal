@@ -6,12 +6,9 @@
   "version": "1.0.0",
   "description": "Personal ESLint configuration",
   "main": "index.js",
-  "files": [
-    "index.js",
-    "rules/es6.js"
-  ],
+  "files": ["index.js", "rules/es6.js"],
   "engines": {
-    "node": ">=4"
+    "node": ">=6"
   },
   "scripts": {
     "lint": "eslint ./tests/index.js",
@@ -21,14 +18,7 @@
     "extends": "./index.js"
   },
   "repository": "madiodio/eslint-config-personal",
-  "keywords": [
-    "eslint",
-    "eslintconfig",
-    "lint",
-    "linter",
-    "javascript",
-    "js"
-  ],
+  "keywords": ["eslint", "eslintconfig", "lint", "linter", "javascript", "js"],
   "author": "Madiodio Gaye <papigaye1@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/madiodio/eslint-config-personal#readme",
@@ -44,7 +34,7 @@
   },
   "peerDependencies": {
     "babel-eslint": ">=7.2.3",
-    "eslint": ">=6",
+    "eslint": ">=4",
     "eslint-config-airbnb": ">=16.1.0",
     "eslint-config-prettier": ">=2.9.0",
     "eslint-plugin-flowtype": ">=2.40.1",

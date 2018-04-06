@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Personal ESLint configuration",
   "main": "index.js",
-  "files": ["index.js", "rules"],
+  "files": ["index.js", "rules/es6.js"],
   "engines": {
     "node": ">=4"
   },
@@ -31,7 +31,7 @@
   },
   "peerDependencies": {
     "babel-eslint": ">=7.2.3",
-    "eslint": ">=4",
+    "eslint": ">=6",
     "eslint-config-airbnb": ">=16.1.0",
     "eslint-config-prettier": ">=2.9.0",
     "eslint-plugin-flowtype": ">=2.40.1",

@@ -3,10 +3,13 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Personal ESLint configuration",
   "main": "index.js",
-  "files": ["index.js", "rules/es6.js"],
+  "files": [
+    "index.js",
+    "rules/es6.js"
+  ],
   "engines": {
     "node": ">=6"
   },
@@ -18,7 +21,14 @@
     "extends": "./index.js"
   },
   "repository": "madiodio/eslint-config-personal",
-  "keywords": ["eslint", "eslintconfig", "lint", "linter", "javascript", "js"],
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "lint",
+    "linter",
+    "javascript",
+    "js"
+  ],
   "author": "Madiodio Gaye <papigaye1@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/madiodio/eslint-config-personal#readme",

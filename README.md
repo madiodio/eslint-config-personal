@@ -1,5 +1,13 @@
 # @madiodio/eslint-config-personal
 
+[![travis][travis-image]][travis-url]
+[![npm][npm-image]][npm-url]
+
+[travis-image]: https://img.shields.io/travis/madiodio/eslint-config-personal/master.svg
+[travis-url]: https://travis-ci.org/madiodio/eslint-config-personal
+[npm-image]: https://img.shields.io/npm/v/@madiodio/eslint-config-personal.svg
+[npm-url]: https://npmjs.org/package/@madiodio/eslint-config-personal
+
 ## Install
 
 ```bash

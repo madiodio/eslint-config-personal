@@ -43,6 +43,7 @@ module.exports = {
     "jsx-a11y/label-has-for": [2, { allowChildren: true }],
     "jsx-a11y/anchor-is-valid": 0,
     "no-underscore-dangle": "off",
+    "no-unused-vars": 1,
     "no-console": "off",
     "no-unused-expressions": [
       2,
@@ -55,7 +56,11 @@ module.exports = {
     "react/default-props-match-prop-types": 0,
     "react/display-name": "off",
     "react/no-danger": 0,
+    "react/prop-types": 0,
+    "react/no-did-mount-set-state": 1,
+    "react/no-did-update-set-state": 0,
     "react/no-unescaped-entities": 0,
+    "react/no-unused-state": 1,
     "react/prefer-stateless-function": 0,
     strict: "off"
   }

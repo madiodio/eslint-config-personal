@@ -51,13 +51,12 @@ Settings are overridable from the shareable config by adding them directly into 
 
 The following are the configs and plugins from which this package `extends` its rules:
 
-* eslint:recommended
-* [eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb)
-* [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier)
-* [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)
-* [eslint-plugin-jsx-a11y](https://github.com/evcohen/eslint-plugin-jsx-a11y)
-* [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)
-* [eslint-plugin-flowtype](https://github.com/gajus/eslint-plugin-flowtype)
+- eslint:recommended
+- [eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb)
+- [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier)
+- [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)
+- [eslint-plugin-jsx-a11y](https://github.com/evcohen/eslint-plugin-jsx-a11y)
+- [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)
 
 ## Disabled Rules
 
@@ -65,8 +64,8 @@ The eslint `rules` which are turned off by this package are listed [here](https:
 
 ## Inspirations
 
-* [eslint-config-smagrassi](https://github.com/StefanoMagrassi/eslint-config-smagrassi)
-* [eslint-config-smooth](https://github.com/smooth-code/eslint-config-smooth)
+- [eslint-config-smagrassi](https://github.com/StefanoMagrassi/eslint-config-smagrassi)
+- [eslint-config-smooth](https://github.com/smooth-code/eslint-config-smooth)
 
 ## License
 

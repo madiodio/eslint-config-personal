@@ -5,7 +5,7 @@
 
 module.exports = {
   parser: "babel-eslint",
-  plugins: ["react", "jsx-a11y", "flowtype"],
+  plugins: ["react", "jsx-a11y"],
   parserOptions: {
     ecmaVersion: 6,
     sourceType: "module",
@@ -16,16 +16,9 @@ module.exports = {
     "eslint:recommended",
     "airbnb",
     "plugin:react/recommended",
-    "plugin:flowtype/recommended",
     "prettier",
-    "prettier/flowtype",
     "prettier/react"
   ],
-  settings: {
-    flowtype: {
-      onlyFilesWithFlowAnnotation: true
-    }
-  },
   env: {
     browser: true,
     es6: true,
